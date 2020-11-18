@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/cat"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/chebo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/chebo"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentEnd="true"
+        />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Ibodov"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/text_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Главный загаловок"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/down_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="25dp"
+        android:text="@string/Подробнее"
+        android:backgroundTint="@color/lightGray"
+        android:textColor="@color/black"
+
+        />
+
+</RelativeLayout>
