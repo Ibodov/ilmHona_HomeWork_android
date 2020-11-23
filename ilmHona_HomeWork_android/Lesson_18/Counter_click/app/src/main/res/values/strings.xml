@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CounterClick</string>
+    <string name="by_Ibodov">by Ibodov</string>
+    <string name="Welcome">Welcome to Second Activity</string>
+    <string name="reset">Сброс счетчика</string>
+    <string name="Hello_Android">Hello Android</string>
+    <string name="Another_Activity">Запустить другую активити</string>
+
+</resources>
